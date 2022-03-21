@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Margin="10,10,680,308" Source="jGCVwNiNNl4.jpg" Stretch="Fill"/>
+        <Button x:Name="Ku" Content="Квадратное" HorizontalAlignment="Left" Margin="39,154,0,0" VerticalAlignment="Top" Width="285" Height="167" FontSize="24" FontFamily="SimSun" Click="Ku_Click"/>
+        <Button x:Name="Lu" Content="Линейное" HorizontalAlignment="Left" Margin="461,154,0,0" VerticalAlignment="Top" Width="285" Height="167" FontFamily="Segoe UI Symbol" FontSize="24" Click="Lu_Click"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="10,11,0,0" Stroke="Black" VerticalAlignment="Top" Width="772"/>
+        <Label Content="Вычесление" HorizontalAlignment="Left" Margin="632,51,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="SimSun"/>
+        <Image Margin="21,18,623,322" Source="29727836_m.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
